@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in(Polegada), *px*, pt, pc
+            
+            Medidas Relativas
+            *em* (Relativo ao M maiúsculo de uma fonte), ex (Relativo ao tamnho X de uma fonte), rem, VW, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            
+            /* lighter normal bold bolder
+             */
+        }
+
+        h1{
+            /* shorthand font
+            - font style => fonte weight -> font size -> font family
+            
+            font-family: 'work sans', sans-serif;
+            font weight: bolder;
+            font-size: 3em
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style> 
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, vitae in. Nihil repellendus, libero sequi dolor ipsum rerum, maiores unde dolores, explicabo distinctio possimus debitis tempora? Nisi minima repellat quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos reiciendis, aliquam possimus consequuntur consequatur explicabo eius vero incidunt quisquam quibusdam, accusantium animi, magnam velit debitis porro aperiam labore praesentium!Lorem</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aut quisquam cumque voluptatum modi at placeat quae. Vitae fuga nulla minima, amet illum sed, ratione similique distinctio corporis asperiores excepturi.</p>
+
+    <h2>Subtítulo do Exercícico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic expedita consequuntur eum maxime officiis dolor exercitationem fugiat, veritatis, saepe sed sapiente! Hic necessitatibus perferendis laboriosam molestiae illo itaque quod?</p>
+</body>
+</html>
