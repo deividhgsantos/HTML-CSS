@@ -24,12 +24,33 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        .destaque {
+            background-color: chartreuse;
+        }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
 
     <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
